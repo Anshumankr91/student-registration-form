@@ -1,0 +1,251 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+    background-color: #f0f0f0;
+    margin: 20px;
+}
+header{
+    text-align: center;
+    
+}
+header h1{
+    font-size: 50px;
+    color: #555;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: ##778ca3;
+    height: auto;
+    width: 100%;
+}
+.get-info{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: #778ca3;
+    width: 50%;
+    height: 800px;
+}
+.get-info label {
+    display: block;
+    font-size: 30x;
+}
+    .form{    width: calc(100% - 24px);
+        padding: 8px 12px;
+        margin-top: 4px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 14px;
+    }
+   
+#submit{
+    display: block;
+    margin: auto;
+    width: 100px;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: orangered;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.data-store{
+    margin-bottom: 20px;
+    
+}.get-info button:hover {
+    background-color: rgb(216, 58, 0);
+}
+
+.get-info input:focus {
+    outline: none;
+    border-color: orangered;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+}
+.data-store{
+    width: 50%;
+    max-width: 100%;
+    height: 800px;
+    margin: auto;
+    background-color: #d1d8e0;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 5%;
+    text-align: center; /* Center-aligns the content inside the section */
+    margin-top: 20px;
+}
+
+.data-store table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    padding: 20px;
+}
+
+.data-store th, .data-store td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.data-storeth {
+    background-color: #f0f0f0;
+    font-weight: bold;
+}
+.user-data button:hover {
+    background-color: rgb(216, 58, 0);
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: #f0f0f0; /* Light gray background */
+    padding: 20px; /* Adds some padding around the content */
+}
+
+header {
+    text-align: center;
+    margin-top: 20px;
+}
+
+header h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.apply-info {
+    width: 600px;
+    max-width: 100%;
+    height: 415px;
+    margin: auto;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.contanier-info {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.contanier-info label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.contanier-info input[type="text"],
+.contanier-info input[type="email"],
+.contanier-info input[type="tel"] {
+    width: calc(100% - 24px);
+    padding: 8px 12px;
+    margin-top: 4px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.contanier-info button {
+    display: block;
+    margin: auto;
+    width: 100px;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: orangered;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.contanier-info button:hover {
+    background-color: rgb(216, 58, 0);
+}
+
+.contanier-info input:focus {
+    outline: none;
+    border-color: orangered;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+}
+
+
+.user-data{
+    width: 600px;
+    max-width: 100%;
+    min-height: 415px;
+    margin: auto;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 5%;
+    text-align: center; /* Center-aligns the content inside the section */
+    margin-top: 20px;
+
+}
+
+
+.user-data table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    padding: 20px;
+}
+
+.user-data th, .user-data td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.user-data th {
+    background-color: #f0f0f0;
+    font-weight: bold;
+}
+
+.user-data th:nth-child(3), .user-data td:nth-child(3) {
+    width: 30%; /* Adjust width for specific columns */
+}
+
+.user-data td:last-child {
+    text-align: center; /* Center-align actions column */
+}
+
+.user-data button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    background-color: orangered;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.user-data button:hover {
+    background-color: rgb(216, 58, 0);
+}
